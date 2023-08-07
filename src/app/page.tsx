@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className='p-8 bg-slate-900 text-slate-100 h-screen'>
-      <h1 className='font-bold flex text-5xl items-center gap-3 before:w-0.5 before:h-8 before:bg-sky-500 before:flex'>
+      <h1 className='font-bold flex text-3xl sm:text-5xl lg:text-6xl items-center gap-3 before:w-0.5 before:h-8 before:bg-sky-500 before:flex'>
         Hello world
       </h1>
       <h2>Hello world</h2>
