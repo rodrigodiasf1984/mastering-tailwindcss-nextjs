@@ -16,10 +16,16 @@ export function UsedSpaceWidget() {
         <div className="h-2 w-4/5 rounded-full bg-violet-600" />
       </div>
       <div className="space-x-3">
-        <button className="text-sm/5 font-medium text-violet-500 hover:text-violet-700">
+        <button
+          type="button"
+          className="text-sm/5 font-medium text-violet-500 hover:text-violet-700"
+        >
           Dismiss
         </button>
-        <button className="text-sm/5 font-medium text-violet-600 hover:text-violet-900">
+        <button
+          type="button"
+          className="text-sm/5 font-medium text-violet-600 hover:text-violet-900"
+        >
           Upgrade plan
         </button>
       </div>

@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import { NavItem } from './NavItem'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
+import { Profile } from './Profile'
 
 const Sidebar = () => {
   return (
@@ -39,6 +40,8 @@ const Sidebar = () => {
           <NavItem icon={Cog} title="Settings" />
         </nav>
         <UsedSpaceWidget />
+        <div className="h-px bg-zinc-200" />
+        <Profile />
       </div>
     </aside>
   )
