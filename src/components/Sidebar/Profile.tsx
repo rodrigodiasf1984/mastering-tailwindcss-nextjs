@@ -14,7 +14,7 @@ export function Profile() {
           Rodrigo D. Figueiredo
         </span>
         <span className="truncate text-sm/5 text-zinc-500">
-          rodrigodiasf@gmail.com
+          asdasgasfgasgsgasgrodrigodiasf@gmail.com
         </span>
       </div>
       <button
