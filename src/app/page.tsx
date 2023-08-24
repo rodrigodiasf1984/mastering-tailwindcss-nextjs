@@ -1,7 +1,11 @@
+
 import SettingsTabs from '@/components/SettingsTabs'
 import * as Input from '@/components/Input'
 import { Mail } from 'lucide-react'
 import * as FileInput from '@/components/Form/FileInput'
+import { Select } from '@/components/Form/Select'
+
+
 
 export default function Home() {
   return (
@@ -98,7 +102,7 @@ export default function Home() {
             </label>
 
             <Input.Root>
-              <Input.Control id="role" defaultValue="TECH LEAD" />
+              <Input.Control id="role" defaultValue="Mobile developer" />
             </Input.Root>
           </div>
 
@@ -110,7 +114,7 @@ export default function Home() {
               Country
             </label>
 
-            <div></div>
+           <Select/>
           </div>
 
           <div className="mt-5 grid grid-cols-form gap-3 pt-5">
